@@ -19,7 +19,7 @@ class DAOUsuariosTest {
     @Test
     @DisplayName("Debería devolver un usuario existente correctamente")
     void testGetUsuarioExistente() {
-        String registro = "admin";
+        String registro = "Admin";
         Usuario usuario = dao.getUsuario(registro);
         assertNotNull(usuario, "El usuario no debería ser null");
         assertEquals(registro, usuario.getLogin(), "El registro del usuario debería coincidir");
@@ -28,7 +28,7 @@ class DAOUsuariosTest {
     @Test
     @DisplayName("Debería devolver null si el usuario no existe")
     void testGetUsuarioNoExistente() {
-        Usuario usuario = dao.getUsuario("Alejandro");
+        Usuario usuario = dao.getUsuario("juan");
         assertNull(usuario, "El usuario debería ser null si no existe");
     }
 

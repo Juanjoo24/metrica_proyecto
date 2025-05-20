@@ -17,8 +17,8 @@ import java.sql.SQLException;
 public class DAOUsuarios {
     
     public Connection conectarBD() throws SQLException  {
-        Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", 
-                "Pokemon", "Pokemon");
+        Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe",
+                "pokemon", "pokemon");
         return conn;
     }
     public void desconectarBD(Connection conn) {
@@ -39,7 +39,7 @@ public class DAOUsuarios {
             pst.setString(1, Nombre);
             ResultSet rs = pst.executeQuery();
             if (rs.next()) {
-                u = new Usuario(Nombre, rs.getString("Contraseña"), rs.getString("Nombre") );
+                u = new Usuario(Nombre, rs.getString("ContraseÃ±a"), rs.getString("Nombre") );
             }
         } catch (SQLException e) {
             System.err.println("getUsuario:" + e.getMessage());
