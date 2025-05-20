@@ -1,17 +1,16 @@
 package registrar_entidades_y_pokemon;
 
+import junit.framework.TestCase;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class PokemonTest {
+public class PokemonTest extends TestCase{
 
     Pokemon pokemon;
 
     @BeforeEach
-    void setUp() {
+    protected void setUp() {
         pokemon = new Pokemon(25, "Pikachu", "Eléctrico", null);
     }
 
