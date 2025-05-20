@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
 /**
- *
+ * Clase de pruebas para Usuario
  * @author Kevin
  */
 public class UsuarioTest {

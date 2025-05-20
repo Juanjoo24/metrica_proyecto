@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: registrar_entidades_y_pokemon.PokemonTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s -- in registrar_entidades_y_pokemon.PokemonTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.110 s -- in registrar_entidades_y_pokemon.PokemonTest

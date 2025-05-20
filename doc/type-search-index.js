@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"registrar_entidades_y_pokemon","l":"UsuarioTest"}];updateSearchResults();
