@@ -14,7 +14,7 @@ import java.sql.SQLException;
 public class DAOPokemon {
 
     public Connection conectarBD() throws SQLException {
-        return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "Pokemon", "Pokemon");
+        return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "pokemon", "pokemon");
     }
     public void desconectarBD(Connection conn) {
         try {
@@ -27,7 +27,7 @@ public class DAOPokemon {
     }
 
     public boolean insertarNuevoPokemon(int numeroPokedex, int idUsuario, String nombrePokemon) { // Metodo para insertar pokemon
-        String sql = "INSERT INTO PokemonRegistrado (Nº_Pokedex, ID_usuario, Nombre) VALUES (?, ?, ?)";
+        String sql = "INSERT INTO PokemonRegistrado (NÂº_Pokedex, ID_usuario, Nombre) VALUES (?, ?, ?)";
         Connection conn = null;
         PreparedStatement stmt = null;
 
@@ -42,7 +42,7 @@ public class DAOPokemon {
             return filas > 0;
 
         } catch (SQLException e) {
-            System.err.println("Error al insertar Pokémon: " + e.getMessage());
+            System.err.println("Error al insertar Pokï¿½mon: " + e.getMessage());
             return false;
         } finally {
             try {
