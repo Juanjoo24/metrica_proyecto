@@ -52,7 +52,7 @@ class DAOPokemonTest {
     @DisplayName("No debería insertar un Pokémon con ID de usuario inválido")
     void testInsertarPokemonConIDInvalido() {
         int numeroPokedex = 150;
-        int idUsuario = -99;  // ID inválido
+        int idUsuario = -99;
         String nombrePokemon = "Mewtwo";
 
         boolean resultado = dao.insertarNuevoPokemon(numeroPokedex, idUsuario, nombrePokemon);
