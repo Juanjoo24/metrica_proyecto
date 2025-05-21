@@ -1,5 +1,5 @@
 /*
- * Mï¿½todo que nos permite saber el porcentaje exacto de pokemon registrados
+ * Método que nos permite saber el porcentaje exacto de pokemon registrados
  */
 package diferentesClases;
 
@@ -19,7 +19,7 @@ public class PorcentajePokemon {
     }
 
     public int contarPokemonRegistrados(int idUsuario) {
-        String sql = "SELECT COUNT(DISTINCT NÂº_Pokedex) AS total FROM PokemonRegistrado WHERE ID_usuario = ?";
+        String sql = "SELECT COUNT(DISTINCT Nº_Pokedex) AS total FROM PokemonRegistrado WHERE ID_usuario = ?";
         int total = 0;
         try (Connection conn = conectarBD();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -31,7 +31,7 @@ public class PorcentajePokemon {
                 }
             }
         } catch (SQLException e) {
-            System.err.println("Error al contar Pokï¿½mon registrados: " + e.getMessage());
+            System.err.println("Error al contar Pokémon registrados: " + e.getMessage());
         }
         return total;
     }
