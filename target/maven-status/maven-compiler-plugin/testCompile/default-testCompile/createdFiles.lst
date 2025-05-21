@@ -1,3 +1,5 @@
+conexionBD\DAOUsuariosTest.class
 com\ejemplo\AppTest.class
+conexionBD\DAOPokemonTest.class
 registrar_entidades_y_pokemon\UsuarioTest.class
 registrar_entidades_y_pokemon\PokemonTest.class
