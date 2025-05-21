@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
  * Incluye verificación de getters, setters y método {@code toString()}
  * en distintas condiciones (un tipo, dos tipos, tipo2 vacío).
  * </p>
- * @author Kevin Fuentes
+ * @author Kevin Fuentes & Juan José Hoyos & Alejandro Campos
  * @since 1.0
  */
 public class PokemonTest extends TestCase {
