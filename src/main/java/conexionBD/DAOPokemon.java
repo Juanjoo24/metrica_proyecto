@@ -42,7 +42,7 @@ public class DAOPokemon {
             return filas > 0;
 
         } catch (SQLException e) {
-            System.err.println("Error al insertar Pok�mon: " + e.getMessage());
+            System.err.println("Error al insertar Pokémon: " + e.getMessage());
             return false;
         } finally {
             try {
