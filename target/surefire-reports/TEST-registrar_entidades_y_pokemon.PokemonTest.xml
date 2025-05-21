@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="registrar_entidades_y_pokemon.PokemonTest" time="0.11" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="registrar_entidades_y_pokemon.PokemonTest" time="0.108" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Kevin\AppData\Local\Temp\surefire3736184492101240391\surefirebooter-20250520183857628_3.jar C:\Users\Kevin\AppData\Local\Temp\surefire3736184492101240391 2025-05-20T18-38-57_390-jvmRun1 surefire-20250520183857628_1tmp surefire_0-20250520183857628_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Kevin\AppData\Local\Temp\surefire16787166679694287792\surefirebooter-20250521171758148_3.jar C:\Users\Kevin\AppData\Local\Temp\surefire16787166679694287792 2025-05-21T17-17-57_920-jvmRun1 surefire-20250521171758148_1tmp surefire_0-20250521171758148_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="registrar_entidades_y_pokemon.PokemonTest"/>
     <property name="surefire.test.class.path" value="C:\Users\Kevin\Desktop\Aprendizaje\Workspace\FINAL_ENTORNOS_COMPARTIDO\metrica_proyecto\target\test-classes;C:\Users\Kevin\Desktop\Aprendizaje\Workspace\FINAL_ENTORNOS_COMPARTIDO\metrica_proyecto\target\classes;C:\Users\Kevin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Kevin\.m2\repository\org\junit\jupiter\junit-jupiter\5.13.0-RC1\junit-jupiter-5.13.0-RC1.jar;C:\Users\Kevin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.13.0-RC1\junit-jupiter-api-5.13.0-RC1.jar;C:\Users\Kevin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Kevin\.m2\repository\org\junit\platform\junit-platform-commons\1.13.0-RC1\junit-platform-commons-1.13.0-RC1.jar;C:\Users\Kevin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kevin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.13.0-RC1\junit-jupiter-params-5.13.0-RC1.jar;C:\Users\Kevin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.13.0-RC1\junit-jupiter-engine-5.13.0-RC1.jar;C:\Users\Kevin\.m2\repository\org\junit\platform\junit-platform-engine\1.13.0-RC1\junit-platform-engine-1.13.0-RC1.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Kevin\AppData\Local\Temp\surefire3736184492101240391\surefirebooter-20250520183857628_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kevin\AppData\Local\Temp\surefire16787166679694287792\surefirebooter-20250521171758148_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -63,9 +63,9 @@
   <testcase name="testToStringConDosTipos" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.041"/>
   <testcase name="testGetTipo1" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.003"/>
   <testcase name="testGetNumeroPokedex" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.002"/>
-  <testcase name="testToStringTipo2Vacio" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.003"/>
+  <testcase name="testToStringTipo2Vacio" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.004"/>
   <testcase name="testGetTipo2EsNull" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.003"/>
-  <testcase name="testToStringConUnTipo" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.005"/>
+  <testcase name="testToStringConUnTipo" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.002"/>
   <testcase name="testSetNombre" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.003"/>
-  <testcase name="testGetNombre" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.003"/>
+  <testcase name="testGetNombre" classname="registrar_entidades_y_pokemon.PokemonTest" time="0.002"/>
 </testsuite>
