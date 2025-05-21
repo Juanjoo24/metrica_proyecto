@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.ejemplo"},{"l":"conexionBD"},{"l":"diferentesClases"},{"l":"registrar_entidades_y_pokemon"},{"l":"registroAPP"}];updateSearchResults();
