@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
  * <p>
  * Comprueba getters, setters, equals, hashCode y toString.
  * </p>
- * @author Kevin
+ * @author Kevin Fuentes & Juan José Hoyos & Alejandro Campos
  * @since 1.0
  */
 public class UsuarioTest {
