@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"registrar_entidades_y_pokemon"}];updateSearchResults();
