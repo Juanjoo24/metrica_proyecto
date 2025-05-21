@@ -6,11 +6,11 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 /**
- * Pruebas unitarias para la clase {@link Pokemon}.
- * <p>
+ * Pruebas unitarias para la clase .
+ * 
  * Incluye verificación de getters, setters y método {@code toString()}
  * en distintas condiciones (un tipo, dos tipos, tipo2 vacío).
- * </p>
+ * 
  * @author Kevin Fuentes & Juan José Hoyos & Alejandro Campos
  * @since 1.0
  */
@@ -59,7 +59,7 @@ public class PokemonTest extends TestCase {
     }
 
     /**
-     * Verifica que Pokemon#getTipo2() retorna null cuando no se asigna.
+     * Verifica que Pokemon getTipo2() retorna null cuando no se asigna.
      */
     @Test
     @DisplayName("Deberia devolver null como segundo tipo")
