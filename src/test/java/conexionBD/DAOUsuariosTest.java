@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
  * que recupera un usuario de la base de datos a partir de su login.
  */
 
-class DAOUsuariosTest {
+public class DAOUsuariosTest {
 
     /** Instancia del DAO de usuarios que se va a probar */
     DAOUsuarios dao;

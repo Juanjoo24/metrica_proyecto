@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
  */
 
 
-class DAOPokemonTest {
+public class DAOPokemonTest {
 
     /** Instancia del DAO que se va a probar */
     DAOPokemon dao;
