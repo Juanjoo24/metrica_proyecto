@@ -11,6 +11,8 @@ import org.junit.jupiter.api.Test;
  * Clase de prueba unitaria para la clase {@link DAOUsuarios}.
  * Esta clase verifica el funcionamiento del método getUsuario,
  * que recupera un usuario de la base de datos a partir de su login.
+ * @author Kevin Fuentes
+ * @since 1.0
  */
 
 public class DAOUsuariosTest {

@@ -13,6 +13,8 @@ import org.junit.jupiter.api.Test;
  * Esta clase utiliza JUnit 5 para verificar el correcto funcionamiento
  * del método {@code insertarNuevoPokemon} del DAO, asegurando que se
  * comporta como se espera ante distintos casos.
+ * @author Juan José Hoyos
+ * @since 1.0
  */
 
 
